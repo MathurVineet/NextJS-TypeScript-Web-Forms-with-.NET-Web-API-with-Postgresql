@@ -1,0 +1,141 @@
+/**
+ * TableForm.module.css
+ * This is a css component which is created to manage css part of  TableForm component.
+ */
+
+ .pageRow {
+  height: calc(100vh - 95px);
+  display: flex;
+  background-color: #f5f5f5;
+}
+
+.taskList {
+  background-color: white;
+  margin: var(--gap);
+  height: 92%;
+  overflow: auto;
+  padding: 0 0.5rem;
+  margin: var(--gap);
+  width: calc(100% - 52px);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
+  height: calc(100% - 30px);
+}
+.footer {
+  height: 7%;
+  gap: 18%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tableHead {
+  color: #54c1bd;
+  width: 12%;
+  font-weight: bold;
+  font-size: 0.85rem !important;
+  z-index: 1;
+  /* border-top: 1px dotted #54c1bd !important; */
+}
+.tableHead:hover {
+  background-color: transparent;
+}
+.tableColumn {
+  font-size: 0.85rem;
+  font-weight: 0;
+  border: none;
+  margin: "0";
+  padding: 0px;
+  outline: none;
+  width: 12%;
+  padding: 0px !important;
+}
+
+.tableFormDropdown {
+  width: 90% !important;
+  border: none !important;
+  padding-top: 0px !important;
+}
+.tableFormDropdown:hover {
+  background-color: transparent !important;
+}
+.tableColumsSrNo {
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.formInput {
+  box-shadow: none !important;
+}
+
+.datePicker {
+  border: none;
+  text-align: center;
+  outline: none;
+  background: transparent;
+  /* font-size: 0.8em !important; */
+}
+
+.tableRowLabel {
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.tableRowLabelDateDropDown {
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+
+.formInput {
+  padding-left: 0px !important;
+  border: none !important;
+  display: flex;
+  align-items: center;
+}
+
+.actionColoumn {
+  width: 8%;
+  display: flex;
+  justify-content: flex-end;
+  color: var(--theme-Secondary-color);
+  /* padding: 4px 0px; */
+}
+
+.tableFormTableHead {
+  border: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.tableBody {
+  height: 2.75rem;
+  padding-bottom: 1px;
+  padding-top: 1.16px;
+  position: sticky;
+  top: 0px;
+  z-index: 0;
+}
+
+.saveIcon {
+  padding-top: 1.5px;
+  padding-bottom: 1.5px;
+  cursor: pointer;
+}
+
+.addIcon {
+  width: auto !important;
+  background-color: transparent !important;
+  border: none;
+  display: flex;
+  outline: none;
+  padding: 0px !important;
+  /* padding-left: 0.4rem !important; */
+}
+
+#tableFormDatePicker{
+  padding: 0px !important;
+}
